@@ -11,6 +11,11 @@
 
 <link type="text/css" href="index_files/index.css" rel="stylesheet">
 <script type="text/javascript" src="index_files/index.js"></script>
+<script type="text/javascript">
+    function didLoad() {
+        window.location.href="weiyou://didLoad"  // by decamincow
+    }
+</script>
 
 
 <script type="text/javascript">
@@ -26,7 +31,7 @@
 
 </head>
 
-<body class="body">
+<body class="body" onLoad="didLoad()">
 <script src="index_files/auto_ads.js"></script>
 <canvas width="2027.329192546584" height="680" id="gamescene"></canvas>
 <div id="mask" class="hide"></div>
